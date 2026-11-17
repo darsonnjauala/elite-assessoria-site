@@ -5,13 +5,13 @@ export default function ContactLocation() {
         {/* Editorial Section Header */}
         <div className="max-w-3xl mb-14">
           <div className="text-xs font-semibold text-[#C59B27] uppercase tracking-[0.2em] font-mono mb-3">
-            Sede &amp; Atendimento
+            Sede e Atendimento
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
             Canais Oficiais da Elite Assessoria, S.A.
           </h2>
           <p className="mt-4 text-[#94A3B8] text-sm sm:text-base leading-relaxed">
-            Atendimento presencial em Maputo e linhas dedicadas para assessoria empresarial, domiciliação e crédito público.
+            Atendimento presencial na capital e linhas dedicadas para assessoria empresarial, escritório virtual e crédito público.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function ContactLocation() {
                 Linha Telefónica
               </span>
               <h3 className="text-lg font-bold text-white mb-2">
-                Atendimento Maputo
+                Atendimento Direto
               </h3>
               <p className="text-xs text-[#94A3B8] mb-4">
                 Segunda a Sexta-feira, das 08h00 às 17h00.
@@ -34,7 +34,7 @@ export default function ContactLocation() {
               href="tel:+258846992501"
               className="border border-white/20 bg-[#0A111F] hover:border-[#C59B27] text-white text-center font-bold text-xs uppercase tracking-wider py-3 rounded-none transition-colors whitespace-nowrap"
             >
-              Ligar: +258 84 699 2501
+              Ligar para a Linha Direta
             </a>
           </div>
 
@@ -57,7 +57,7 @@ export default function ContactLocation() {
               rel="noopener noreferrer"
               className="bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] text-center font-bold text-xs uppercase tracking-wider py-3 rounded-none transition-colors whitespace-nowrap"
             >
-              Iniciar Conversa WhatsApp
+              Falar no WhatsApp
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function ContactLocation() {
               rel="noopener noreferrer"
               className="border border-white/20 bg-[#0A111F] hover:border-[#C59B27] text-white text-center font-bold text-xs uppercase tracking-wider py-3 rounded-none transition-colors whitespace-nowrap"
             >
-              Ver no Google Maps
+              Abrir no Google Maps
             </a>
           </div>
         </div>

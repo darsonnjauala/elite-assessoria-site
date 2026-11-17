@@ -1,11 +1,11 @@
 export default function DomiciliationMatrix() {
   const features = [
-    { name: "Endereço Fiscal de Prestígio no Centro de Maputo", fiscal: true, virtual: true, corporate: true },
+    { name: "Endereço Fiscal de Prestígio no Centro da Capital", fiscal: true, virtual: true, corporate: true },
     { name: "Registo Válido para Conservatória, BAU e Finanças", fiscal: true, virtual: true, corporate: true },
     { name: "Receção e Guarda de Correspondência Oficial", fiscal: true, virtual: true, corporate: true },
     { name: "Notificação Imediata por E-mail e WhatsApp", fiscal: true, virtual: true, corporate: true },
     { name: "Digitalização de Notificações e Documentos Fiscais", fiscal: false, virtual: true, corporate: true },
-    { name: "Linha Telefónica Fixa de Maputo (+258 21 ...)", fiscal: false, virtual: true, corporate: true },
+    { name: "Linha Telefónica Fixa Dedicada (+258 21 ...)", fiscal: false, virtual: true, corporate: true },
     { name: "Atendimento Telefónico em Nome da Sua Empresa", fiscal: false, virtual: true, corporate: true },
     { name: "Acesso Mensal a Sala de Reuniões Executiva", fiscal: false, virtual: false, corporate: "8 Horas / Mês" },
   ];
@@ -16,17 +16,17 @@ export default function DomiciliationMatrix() {
         {/* Editorial Section Header */}
         <div className="max-w-3xl mb-14">
           <div className="text-xs font-semibold text-[#C59B27] uppercase tracking-[0.2em] font-mono mb-3">
-            Escritório Virtual em Maputo
+            Escritório Virtual
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-            Pacotes de Domiciliação Fiscal &amp; Representação Comercial
+            Pacotes de Domiciliação Fiscal e Representação Comercial
           </h2>
           <p className="mt-4 text-[#94A3B8] text-sm sm:text-base leading-relaxed">
-            Para empresas nacionais com sede noutras províncias e entidades estrangeiras que necessitam de presença legal e operacional formal no centro corporativo de Maputo.
+            Para empresas nacionais com sede noutras províncias e entidades estrangeiras que necessitam de presença legal e operacional formal no centro corporativo da capital.
           </p>
         </div>
 
-        {/* Desktop Table View (Editorial Hairline Grid) */}
+        {/* Desktop Table View */}
         <div className="hidden md:block overflow-x-auto border border-white/10 bg-[#0A111F]">
           <table className="w-full text-left border-collapse">
             <thead>
@@ -55,14 +55,14 @@ export default function DomiciliationMatrix() {
                     {feat.fiscal ? (
                       <span className="text-[#CBD5E1] text-xs font-medium uppercase tracking-wider">Incluído</span>
                     ) : (
-                      <span className="text-white/20">—</span>
+                      <span className="text-white/20">Não incluído</span>
                     )}
                   </td>
                   <td className="p-4 text-center border-l border-white/10 bg-[#C59B27]/5">
                     {feat.virtual ? (
                       <span className="text-[#D4AF37] text-xs font-bold uppercase tracking-wider">Incluído</span>
                     ) : (
-                      <span className="text-white/20">—</span>
+                      <span className="text-white/20">Não incluído</span>
                     )}
                   </td>
                   <td className="p-4 text-center border-l border-white/10">
@@ -71,7 +71,7 @@ export default function DomiciliationMatrix() {
                     ) : feat.corporate ? (
                       <span className="text-[#CBD5E1] text-xs font-medium uppercase tracking-wider">Incluído</span>
                     ) : (
-                      <span className="text-white/20">—</span>
+                      <span className="text-white/20">Não incluído</span>
                     )}
                   </td>
                 </tr>
@@ -82,32 +82,32 @@ export default function DomiciliationMatrix() {
                 </td>
                 <td className="p-5 text-center border-l border-white/10">
                   <a
-                    href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20aderir%20ao%20pacote%20de%20Domic%C3%ADlio%20Fiscal%20em%20Maputo."
+                    href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20escolher%20o%20pacote%20de%20Domic%C3%ADlio%20Fiscal."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block w-full border border-white/20 hover:border-[#C59B27] text-white font-semibold text-xs uppercase tracking-wider py-3 rounded-none transition-colors whitespace-nowrap"
                   >
-                    Aderir ao Fiscal
+                    Escolher Domicílio Fiscal
                   </a>
                 </td>
                 <td className="p-5 text-center border-l border-white/10 bg-[#C59B27]/10">
                   <a
-                    href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20aderir%20ao%20pacote%20de%20Escrit%C3%B3rio%20Virtual%20em%20Maputo."
+                    href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20escolher%20o%20pacote%20de%20Escrit%C3%B3rio%20Virtual."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block w-full bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] font-bold text-xs uppercase tracking-wider py-3 rounded-none transition-colors whitespace-nowrap"
                   >
-                    Aderir ao Virtual
+                    Escolher Escritório Virtual
                   </a>
                 </td>
                 <td className="p-5 text-center border-l border-white/10">
                   <a
-                    href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20aderir%20ao%20pacote%20Full%20Corporate%20Hub%20em%20Maputo."
+                    href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20escolher%20o%20pacote%20Full%20Corporate%20Hub."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block w-full border border-white/20 hover:border-[#C59B27] text-white font-semibold text-xs uppercase tracking-wider py-3 rounded-none transition-colors whitespace-nowrap"
                   >
-                    Aderir ao Corporate
+                    Escolher Corporate Hub
                   </a>
                 </td>
               </tr>
@@ -127,43 +127,43 @@ export default function DomiciliationMatrix() {
               Para empresas que necessitam de morada oficial para cumprimento legal junto das Finanças e Conservatória.
             </p>
             <ul className="space-y-2 text-xs text-[#CBD5E1] mb-6">
-              <li>— Morada Fiscal de Prestígio em Maputo</li>
-              <li>— Registo na Conservatória, BAU e Finanças</li>
-              <li>— Receção de Notificações e Correspondência</li>
-              <li>— Alerta Imediato por WhatsApp</li>
+              <li>• Morada Fiscal no Centro da Capital</li>
+              <li>• Registo na Conservatória, BAU e Finanças</li>
+              <li>• Receção de Notificações e Correspondência</li>
+              <li>• Alerta Imediato por WhatsApp</li>
             </ul>
             <a
-              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20aderir%20ao%20pacote%20de%20Domic%C3%ADlio%20Fiscal%20em%20Maputo."
+              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20escolher%20o%20pacote%20de%20Domic%C3%ADlio%20Fiscal."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center border border-white/20 hover:border-[#C59B27] text-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-none whitespace-nowrap"
             >
-              Aderir ao Fiscal
+              Escolher Domicílio Fiscal
             </a>
           </div>
 
           {/* Card 2: Escritório Virtual */}
           <div className="hairline-t pt-6 border-l-2 border-[#C59B27] pl-4">
             <span className="text-[11px] font-mono text-[#D4AF37] uppercase tracking-wider block mb-1">
-              Opção 02 — Mais Solicitado
+              Opção 02: Mais Solicitado
             </span>
             <h3 className="text-xl font-bold text-white">Escritório Virtual</h3>
             <p className="text-xs text-[#94A3B8] mt-2 mb-4 leading-relaxed">
-              Morada fiscal somada a atendimento telefónico bilingue com linha fixa dedicada de Maputo.
+              Morada fiscal somada a atendimento telefónico bilingue com linha fixa dedicada.
             </p>
             <ul className="space-y-2 text-xs text-[#CBD5E1] mb-6">
-              <li>— Tudo do Plano Domicílio Fiscal</li>
-              <li>— Linha Telefónica Fixa de Maputo (+258 21 ...)</li>
-              <li>— Atendimento em Nome da Sua Empresa</li>
-              <li>— Digitalização Imediata de Documentos</li>
+              <li>• Tudo do Plano Domicílio Fiscal</li>
+              <li>• Linha Telefónica Fixa Dedicada (+258 21 ...)</li>
+              <li>• Atendimento em Nome da Sua Empresa</li>
+              <li>• Digitalização Imediata de Documentos</li>
             </ul>
             <a
-              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20aderir%20ao%20pacote%20de%20Escrit%C3%B3rio%20Virtual%20em%20Maputo."
+              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20escolher%20o%20pacote%20de%20Escrit%C3%B3rio%20Virtual."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] font-bold text-xs uppercase tracking-wider py-3.5 rounded-none whitespace-nowrap"
             >
-              Aderir ao Virtual
+              Escolher Escritório Virtual
             </a>
           </div>
 
@@ -177,18 +177,18 @@ export default function DomiciliationMatrix() {
               Estrutura integral para reuniões presenciais e representação executiva de alto nível na capital.
             </p>
             <ul className="space-y-2 text-xs text-[#CBD5E1] mb-6">
-              <li>— Tudo do Plano Escritório Virtual</li>
-              <li>— 8 Horas Mensais em Sala de Reuniões Executiva</li>
-              <li>— Apoio Secretarial Presencial para Clientes</li>
-              <li>— Prioridade em Assessoria Contábil &amp; Legal</li>
+              <li>• Tudo do Plano Escritório Virtual</li>
+              <li>• 8 Horas Mensais em Sala de Reuniões Executiva</li>
+              <li>• Apoio Secretarial Presencial para Clientes</li>
+              <li>• Prioridade em Assessoria Contábil e Legal</li>
             </ul>
             <a
-              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20aderir%20ao%20pacote%20Full%20Corporate%20Hub%20em%20Maputo."
+              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20escolher%20o%20pacote%20Full%20Corporate%20Hub."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center border border-white/20 hover:border-[#C59B27] text-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-none whitespace-nowrap"
             >
-              Aderir ao Corporate
+              Escolher Corporate Hub
             </a>
           </div>
         </div>

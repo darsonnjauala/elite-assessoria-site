@@ -2,7 +2,7 @@ export default function StatsStrip() {
   const stats = [
     {
       metric: "100%",
-      label: "Rigor OCAM & Fiscalidade",
+      label: "Rigor OCAM e Fiscalidade",
       sub: "Conformidade estrita com o PGC-NIRF e a legislação tributária moçambicana.",
     },
     {
@@ -11,9 +11,9 @@ export default function StatsStrip() {
       sub: "Finanças, Apoio Legal e Domiciliação Fiscal sob a mesma governação corporativa.",
     },
     {
-      metric: "Maputo",
-      label: "Sede Comercial na Capital",
-      sub: "Endereço institucional com receção executiva e secretariado bilingue.",
+      metric: "0 Multas",
+      label: "Prevenção Fiscal",
+      sub: "Planeamento preventivo e fecho rigoroso para blindar a sua empresa contra penalizações.",
     },
     {
       metric: "24 Horas",

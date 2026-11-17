@@ -25,13 +25,13 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8 text-xs font-mono font-medium text-[#94A3B8] tracking-wider uppercase">
           <Link href="/#financas" className="hover:text-white transition-colors">
-            Finanças &amp; Auditoria
+            Finanças e Auditoria
           </Link>
           <Link href="/#legal" className="hover:text-white transition-colors">
             Apoio Legal
           </Link>
           <Link href="/#domiciliacao" className="hover:text-white transition-colors">
-            Domiciliação Maputo
+            Escritório Virtual
           </Link>
           <Link href="/#credito" className="hover:text-[#D4AF37] transition-colors">
             Crédito Público
@@ -41,27 +41,27 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* Header Right CTA - Pure text, rounded-none */}
+        {/* Header Right CTA - Actionable, concise, pure text */}
         <div className="hidden sm:flex items-center gap-4">
           <a
-            href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20solicitar%20uma%20proposta%20corporativa."
+            href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20falar%20com%20um%20especialista."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-none transition-colors whitespace-nowrap"
           >
-            Pedir Proposta Corporativa
+            Falar com Especialista
           </a>
         </div>
 
-        {/* Mobile Menu Button - Pure text */}
+        {/* Mobile Menu Actions */}
         <div className="flex sm:hidden items-center gap-2">
           <a
-            href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20mais%20informa%C3%A7%C3%B5es."
+            href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20atendimento."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#C59B27] text-[#080E1A] text-xs font-bold uppercase tracking-wider px-3.5 py-2 rounded-none whitespace-nowrap"
           >
-            WhatsApp
+            Falar no WhatsApp
           </a>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -81,21 +81,21 @@ export default function Header() {
             onClick={() => setMobileMenuOpen(false)}
             className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
-            Finanças &amp; Auditoria
+            Finanças e Auditoria
           </Link>
           <Link
             href="/#legal"
             onClick={() => setMobileMenuOpen(false)}
             className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
-            Apoio Legal &amp; Constituição
+            Apoio Legal e Constituição
           </Link>
           <Link
             href="/#domiciliacao"
             onClick={() => setMobileMenuOpen(false)}
             className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
-            Domiciliação em Maputo
+            Escritório Virtual
           </Link>
           <Link
             href="/#credito"
@@ -109,16 +109,16 @@ export default function Header() {
             onClick={() => setMobileMenuOpen(false)}
             className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
-            Contactos &amp; Sede
+            Contactos e Atendimento
           </Link>
           <div className="pt-2">
             <a
-              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20solicitar%20uma%20proposta%20corporativa."
+              href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20falar%20com%20um%20especialista."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#C59B27] text-[#080E1A] font-bold text-xs uppercase tracking-wider py-3 rounded-none whitespace-nowrap"
             >
-              Pedir Proposta Corporativa
+              Falar com Especialista
             </a>
           </div>
         </div>

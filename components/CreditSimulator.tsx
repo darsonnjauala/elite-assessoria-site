@@ -19,7 +19,7 @@ export default function CreditSimulator() {
   const presets = [100000, 250000, 500000, 1000000];
 
   const whatsappMessage = encodeURIComponent(
-    `Olá Elite Assessoria, realizei uma simulação de crédito para o setor público no vosso portal:\n\n• Montante Solicitado: ${formattedAmount} MT\n• Prazo Desejado: ${months} Meses\n• Prestação Estimada: ${formattedMonthly} MT / mês\n\nPossuo os documentos obrigatórios em mãos e pretendo iniciar a pré-avaliação do meu processo.`
+    `Olá Elite Assessoria, realizei uma simulação de crédito para o setor público no vosso portal:\n\n• Montante Solicitado: ${formattedAmount} MT\n• Prazo Desejado: ${months} Meses\n• Prestação Estimada: ${formattedMonthly} MT / mês\n\nPossuo os documentos obrigatórios em mãos e pretendo verificar a pré-aprovação do meu processo.`
   );
 
   return (
@@ -41,7 +41,7 @@ export default function CreditSimulator() {
         {/* Psychological Anti-Burla Shield (Formal Institutional Assurance) */}
         <div className="border-l-2 border-[#C59B27] bg-[#0D1627] p-6 sm:p-8 mb-14 hairline-t hairline-b hairline-r">
           <div className="text-xs font-mono font-bold text-[#D4AF37] uppercase tracking-wider mb-2">
-            Compromisso de Idoneidade &amp; Transparência Bancária
+            Compromisso de Idoneidade e Transparência Bancária
           </div>
           <p className="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
             A Elite Assessoria atua estritamente como intermediária formal junto de instituições bancárias autorizadas em Moçambique. <strong className="text-white font-semibold">Não cobramos comissões antecipadas, taxas de abertura ou qualquer pagamento ao cidadão para a emissão de crédito.</strong> O nosso serviço garante a correta instrução do seu processo de acordo com a sua margem salarial, com aprovação e desembolso efetuados diretamente pela instituição financeira.
@@ -125,23 +125,23 @@ export default function CreditSimulator() {
               </div>
             </div>
 
-            {/* Document Checklist (Clean Editorial Style, Zero Container Bloat) */}
+            {/* Document Checklist */}
             <div className="hairline-t pt-6">
               <span className="text-xs font-mono font-bold text-[#94A3B8] uppercase tracking-wider block mb-3">
                 Documentação Fisiológica Exigida pelo Banco
               </span>
               <ul className="space-y-2 text-xs text-[#CBD5E1]">
                 <li className="flex items-center gap-2">
-                  <span className="text-[#C59B27] font-mono">—</span> BI ou Passaporte Moçambicano Válido
+                  <span className="text-[#C59B27] font-mono">•</span> BI ou Passaporte Moçambicano Válido
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#C59B27] font-mono">—</span> Declaração de Efetividade do Ministério
+                  <span className="text-[#C59B27] font-mono">•</span> Declaração de Efetividade do Ministério
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#C59B27] font-mono">—</span> Último Recibo de Vencimento Oficial
+                  <span className="text-[#C59B27] font-mono">•</span> Último Recibo de Vencimento Oficial
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#C59B27] font-mono">—</span> Extrato Bancário dos Últimos 3 Meses
+                  <span className="text-[#C59B27] font-mono">•</span> Extrato Bancário dos Últimos 3 Meses
                 </li>
               </ul>
             </div>
@@ -171,7 +171,7 @@ export default function CreditSimulator() {
                 rel="noopener noreferrer"
                 className="w-full text-center block bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] font-bold text-xs uppercase tracking-wider py-4 rounded-none transition-colors whitespace-nowrap"
               >
-                Submeter Simulação via WhatsApp
+                Verificar Pré-Aprovação no WhatsApp
               </a>
               <span className="text-[10px] text-center text-[#64748B] block mt-2">
                 Encaminha os dados da simulação diretamente para o gestor de crédito em Maputo.
