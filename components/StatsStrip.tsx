@@ -7,13 +7,13 @@ export default function StatsStrip() {
     },
     {
       metric: "3 Divisões",
-      label: "Estrutura Corporativa Integrada",
-      sub: "Finanças, Apoio Legal e Domiciliação Fiscal operando sob a mesma governação.",
+      label: "Estrutura Integrada",
+      sub: "Finanças, Apoio Legal e Domiciliação Fiscal sob a mesma governação corporativa.",
     },
     {
       metric: "Maputo",
-      label: "Sede Comercial Estratégica",
-      sub: "Endereço institucional na capital com secretariado e gestão documental.",
+      label: "Sede Comercial na Capital",
+      sub: "Endereço institucional com receção executiva e secretariado bilingue.",
     },
     {
       metric: "24 Horas",
@@ -23,7 +23,7 @@ export default function StatsStrip() {
   ];
 
   return (
-    <section className="bg-[#0F172A] border-b border-[#1E293B] py-12 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#0D1627] hairline-b py-14 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((s, idx) => (
@@ -35,7 +35,7 @@ export default function StatsStrip() {
                 <span className="text-3xl sm:text-4xl font-extrabold text-[#D4AF37] tabular-numbers tracking-tight block">
                   {s.metric}
                 </span>
-                <span className="mt-1 text-sm font-bold text-white uppercase tracking-wider block">
+                <span className="mt-1 text-xs font-mono font-bold text-white uppercase tracking-wider block">
                   {s.label}
                 </span>
               </div>

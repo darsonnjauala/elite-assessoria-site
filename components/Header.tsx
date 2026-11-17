@@ -8,7 +8,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A111F]/95 backdrop-blur-md border-b border-[#1E293B]">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#080E1A]/95 backdrop-blur-md hairline-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
@@ -23,7 +23,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-[#94A3B8]">
+        <nav className="hidden lg:flex items-center gap-8 text-xs font-mono font-medium text-[#94A3B8] tracking-wider uppercase">
           <Link href="/#financas" className="hover:text-white transition-colors">
             Finanças &amp; Auditoria
           </Link>
@@ -47,7 +47,7 @@ export default function Header() {
             href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20solicitar%20uma%20proposta%20corporativa."
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#C59B27] hover:bg-[#D4AF37] text-[#0A111F] font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-none transition-colors"
+            className="bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-none transition-colors whitespace-nowrap"
           >
             Pedir Proposta Corporativa
           </a>
@@ -59,13 +59,13 @@ export default function Header() {
             href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20mais%20informa%C3%A7%C3%B5es."
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#C59B27] text-[#0A111F] text-xs font-bold uppercase tracking-wider px-3.5 py-2 rounded-none"
+            className="bg-[#C59B27] text-[#080E1A] text-xs font-bold uppercase tracking-wider px-3.5 py-2 rounded-none whitespace-nowrap"
           >
             WhatsApp
           </a>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="border border-[#1E293B] bg-[#0F172A] text-white px-3 py-2 text-xs font-semibold uppercase tracking-wider rounded-none"
+            className="border border-white/20 bg-[#0D1627] text-white px-3 py-2 text-xs font-semibold uppercase tracking-wider rounded-none whitespace-nowrap"
             aria-label="Abrir Menu"
           >
             {mobileMenuOpen ? "Fechar" : "Menu"}
@@ -75,39 +75,39 @@ export default function Header() {
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="sm:hidden bg-[#0A111F] border-b border-[#1E293B] px-4 pt-3 pb-6 flex flex-col gap-4">
+        <div className="sm:hidden bg-[#080E1A] hairline-b px-4 pt-4 pb-6 flex flex-col gap-4">
           <Link
             href="/#financas"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-sm font-medium text-[#94A3B8] hover:text-white py-1"
+            className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
             Finanças &amp; Auditoria
           </Link>
           <Link
             href="/#legal"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-sm font-medium text-[#94A3B8] hover:text-white py-1"
+            className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
             Apoio Legal &amp; Constituição
           </Link>
           <Link
             href="/#domiciliacao"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-sm font-medium text-[#94A3B8] hover:text-white py-1"
+            className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
             Domiciliação em Maputo
           </Link>
           <Link
             href="/#credito"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-sm font-medium text-[#D4AF37] py-1"
+            className="text-xs font-mono font-medium text-[#D4AF37] py-1 uppercase tracking-wider"
           >
             Crédito ao Funcionário Público
           </Link>
           <Link
             href="/#contactos"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-sm font-medium text-[#94A3B8] hover:text-white py-1"
+            className="text-xs font-mono font-medium text-[#94A3B8] hover:text-white py-1 uppercase tracking-wider"
           >
             Contactos &amp; Sede
           </Link>
@@ -116,7 +116,7 @@ export default function Header() {
               href="https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20solicitar%20uma%20proposta%20corporativa."
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center bg-[#C59B27] text-[#0A111F] font-bold text-xs uppercase tracking-wider py-3 rounded-none"
+              className="block w-full text-center bg-[#C59B27] text-[#080E1A] font-bold text-xs uppercase tracking-wider py-3 rounded-none whitespace-nowrap"
             >
               Pedir Proposta Corporativa
             </a>

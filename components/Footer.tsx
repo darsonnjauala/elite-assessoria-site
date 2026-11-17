@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0A111F] border-t border-[#1E293B] pt-16 pb-12 px-4 sm:px-6 lg:px-8 text-xs text-[#94A3B8]">
+    <footer className="bg-[#080E1A] hairline-t pt-16 pb-12 px-4 sm:px-6 lg:px-8 text-xs text-[#94A3B8]">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-[#1E293B]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 hairline-b">
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-block">
@@ -27,7 +27,7 @@ export default function Footer() {
 
           {/* Quick Links 1: Divisões */}
           <div>
-            <span className="text-xs font-bold text-white uppercase tracking-wider block mb-4">
+            <span className="text-xs font-mono font-bold text-white uppercase tracking-wider block mb-4">
               Divisões
             </span>
             <ul className="space-y-2.5">
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Quick Links 2: Domiciliação */}
           <div>
-            <span className="text-xs font-bold text-white uppercase tracking-wider block mb-4">
+            <span className="text-xs font-mono font-bold text-white uppercase tracking-wider block mb-4">
               Escritório Virtual
             </span>
             <ul className="space-y-2.5">
@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Quick Links 3: Servidores Públicos */}
           <div>
-            <span className="text-xs font-bold text-white uppercase tracking-wider block mb-4">
+            <span className="text-xs font-mono font-bold text-white uppercase tracking-wider block mb-4">
               Setor Público
             </span>
             <ul className="space-y-2.5">
@@ -118,7 +118,7 @@ export default function Footer() {
           <div>
             © {new Date().getFullYear()} Elite Assessoria Contábil e Empresarial, S.A. Todos os direitos reservados.
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 font-mono text-[11px]">
             <span>Moçambique · Maputo</span>
             <span>·</span>
             <span>Rigor · Transparência · Confidencialidade</span>
