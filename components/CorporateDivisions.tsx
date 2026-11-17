@@ -150,7 +150,7 @@ export default function CorporateDivisions() {
               </div>
 
               {/* Editorial Competencies List */}
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 hairline-t pt-6">
+              <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
                 {div.competencies.map((comp, cIdx) => (
                   <div key={cIdx} className="flex items-start gap-4 py-2">
                     <span className="text-xs font-mono font-bold text-[#C59B27] tracking-wider pt-0.5 shrink-0">
