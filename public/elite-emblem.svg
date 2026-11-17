@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer Shield / Hexagonal Precision Geometry -->
+  <polygon points="32,3 59,17 59,47 32,61 5,47 5,17" stroke="#C59B27" stroke-width="3" fill="#0A111F" />
+  <!-- Inner Architectural Pillar & Capital E -->
+  <path d="M19 20H44M19 32H38M19 44H44M19 20V44" stroke="#D4AF37" stroke-width="3.5" stroke-linecap="square" />
+  <!-- Balance Pivot Dot -->
+  <circle cx="32" cy="32" r="3" fill="#C59B27" />
+  <path d="M32 9V14M32 50V55" stroke="#C59B27" stroke-width="2.5" stroke-linecap="round" />
+</svg>

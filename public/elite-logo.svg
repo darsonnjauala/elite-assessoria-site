@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64" fill="none">
+  <!-- Monogram Shield & Balance / Column Geometric Mark -->
+  <g transform="translate(4, 4)">
+    <!-- Outer Shield / Hexagonal Precision Geometry -->
+    <polygon points="28,2 52,14 52,42 28,54 4,42 4,14" stroke="#C59B27" stroke-width="2.5" fill="#0A111F" />
+    <!-- Inner Architectural Pillar & Capital E -->
+    <path d="M16 18H38M16 28H32M16 38H38M16 18V38" stroke="#D4AF37" stroke-width="2.8" stroke-linecap="square" />
+    <!-- Balance Pivot Dot (Fiscal & Legal Rigor) -->
+    <circle cx="28" cy="28" r="2.5" fill="#C59B27" />
+    <path d="M28 8V12M28 44V48" stroke="#C59B27" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography: ELITE -->
+  <text x="72" y="32" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="0.08em">ELITE</text>
+  
+  <!-- Institutional S.A. Badge -->
+  <rect x="156" y="16" width="36" height="18" fill="rgba(197, 155, 39, 0.15)" stroke="#C59B27" stroke-width="1" />
+  <text x="174" y="29" font-family="'Inter', sans-serif" font-weight="700" font-size="10" fill="#D4AF37" text-anchor="middle" letter-spacing="0.1em">S.A.</text>
+
+  <!-- Subtitle: ASSESSORIA CONTÁBIL E EMPRESARIAL -->
+  <text x="72" y="48" font-family="'Inter', sans-serif" font-weight="600" font-size="8.5" fill="#94A3B8" letter-spacing="0.12em">ASSESSORIA CONTÁBIL &amp; EMPRESARIAL</text>
+</svg>
