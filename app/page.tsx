@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#032115] text-[#F8FAF9]">
+    <main className="min-h-screen bg-white text-[#1E293B]">
       <Header />
       <HeroGateway />
       <StatsStrip />

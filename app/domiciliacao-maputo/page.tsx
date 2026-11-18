@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function DomiciliacaoPage() {
   return (
-    <main className="min-h-screen bg-[#032115] text-[#F8FAF9] pt-18">
+    <main className="min-h-screen bg-white text-[#1E293B] pt-18">
       <Header />
-      <div className="py-12 bg-[#073824] border-b border-[#D4AF37]/20">
+      <div className="py-12 bg-[#073824] border-b border-[#D4AF37]/30 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-xs font-mono font-semibold text-[#D4AF37] uppercase tracking-[0.2em] mb-2">
             Soluções Corporativas de Domiciliação

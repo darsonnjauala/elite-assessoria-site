@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" fill="none">
+  <!-- Defs for Gradients and Filters -->
+  <defs>
+    <linearGradient id="goldGradientWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E39F" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+    <linearGradient id="emeraldGradientWhite" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#073824" />
+      <stop offset="100%" stop-color="#16724A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Official Financial Growth Symbol (Bars + Ascending Trend Arrow) -->
+  <g transform="translate(6, 6)">
+    <!-- Container Shield / Rounded Square Badge -->
+    <rect x="0" y="0" width="52" height="52" rx="4" fill="#042618" stroke="#D4AF37" stroke-width="1.5" />
+    
+    <!-- Base Ground Line -->
+    <line x1="8" y1="42" x2="44" y2="42" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Growth Graph Bars (Emerald Green) -->
+    <!-- Bar 1 -->
+    <rect x="11" y="30" width="6" height="12" fill="url(#emeraldGradientWhite)" rx="1" />
+    <!-- Bar 2 -->
+    <rect x="20" y="23" width="6" height="19" fill="url(#emeraldGradientWhite)" rx="1" />
+    <!-- Bar 3 -->
+    <rect x="29" y="16" width="6" height="26" fill="url(#emeraldGradientWhite)" rx="1" />
+    
+    <!-- Dynamic Ascending Gold Arrow (Symbol of Wealth & Rigor) -->
+    <path d="M9 34 L22 23 L29 27 L41 12" stroke="url(#goldGradientWhite)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Arrowhead pointing northeast -->
+    <path d="M33 12 H42 V21" stroke="url(#goldGradientWhite)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Brand Typography: ELITE in White for Dark Surfaces -->
+  <text x="70" y="32" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-weight="900" font-size="25" fill="#FFFFFF" letter-spacing="0.06em">ELITE</text>
+  
+  <!-- Institutional S.A. Badge -->
+  <rect x="156" y="15" width="34" height="19" rx="2" fill="rgba(212, 175, 55, 0.15)" stroke="#D4AF37" stroke-width="1.2" />
+  <text x="173" y="29" font-family="'Inter', sans-serif" font-weight="800" font-size="10.5" fill="#D4AF37" text-anchor="middle" letter-spacing="0.1em">S.A.</text>
+
+  <!-- Subtitle: ASSESSORIA CONTÁBIL & EMPRESARIAL (Gold) -->
+  <text x="70" y="48" font-family="'Inter', sans-serif" font-weight="700" font-size="8.8" fill="#D4AF37" letter-spacing="0.14em">ASSESSORIA CONTÁBIL &amp; EMPRESARIAL</text>
+</svg>

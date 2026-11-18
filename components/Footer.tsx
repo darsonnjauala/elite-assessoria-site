@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-block">
               <Image
-                src="/elite-logo.svg"
+                src="/elite-logo-white.svg"
                 alt="Elite Assessoria Contábil e Empresarial, S.A."
                 width={260}
                 height={50}
@@ -18,7 +18,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-xs text-[#CBD5E1] leading-relaxed max-w-sm">
-              Elite Assessoria Contábil e Empresarial, S.A. — Prestação de serviços contábeis com transparência e responsabilidade, formação executiva, domiciliação fiscal e apoio corporativo em Maputo.
+              Elite Assessoria Contábil e Empresarial, S.A. Prestação de serviços contábeis com transparência e responsabilidade, formação executiva, domiciliação fiscal e apoio corporativo em Maputo.
             </p>
             <div className="pt-2 text-xs text-[#CBD5E1] space-y-1 font-mono">
               <div>Sede: Av. Maguiguana, Bairro Central A, NR 688, Maputo</div>

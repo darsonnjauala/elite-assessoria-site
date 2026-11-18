@@ -101,17 +101,17 @@ export default function CorporateDivisions() {
   ];
 
   return (
-    <section id="servicos" className="bg-[#032115] py-24 px-4 sm:px-6 lg:px-8 border-b border-[#D4AF37]/20">
+    <section id="servicos" className="bg-white py-24 px-4 sm:px-6 lg:px-8 border-b border-slate-200">
       <div className="max-w-7xl mx-auto">
         {/* Editorial Section Header */}
         <div className="max-w-3xl mb-16">
-          <div className="text-xs font-semibold text-[#D4AF37] uppercase tracking-[0.2em] font-mono mb-3">
+          <div className="text-xs font-semibold text-[#996515] uppercase tracking-[0.2em] font-mono mb-3">
             Estrutura Corporativa
           </div>
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-4xl font-extrabold text-[#032115] tracking-tight leading-tight">
             Serviços Corporativos e Apoio Integrado à Empresa
           </h2>
-          <p className="mt-4 text-[#CBD5E1] text-sm sm:text-base leading-relaxed">
+          <p className="mt-4 text-[#475569] text-sm sm:text-base leading-relaxed">
             Fiscal, empresarial, licenciamento, regularização e auditoria sob a mesma governação corporativa em Maputo.
           </p>
         </div>
@@ -122,18 +122,18 @@ export default function CorporateDivisions() {
             <div
               key={div.id}
               id={div.id}
-              className="bg-[#073824] border border-[#D4AF37]/20 p-8 sm:p-10 scroll-mt-24"
+              className="bg-[#F8FAF9] border border-slate-200 border-l-4 border-l-[#D4AF37] p-8 sm:p-10 scroll-mt-24 shadow-xs"
             >
               {/* Division Header Row */}
-              <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b border-[#D4AF37]/15">
+              <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b border-slate-200">
                 <div className="max-w-3xl">
-                  <span className="text-xs font-semibold text-[#D4AF37] uppercase tracking-[0.18em] font-mono block mb-2">
+                  <span className="text-xs font-semibold text-[#996515] uppercase tracking-[0.18em] font-mono block mb-2">
                     {div.code}: {div.division}
                   </span>
-                  <h3 className="text-xl sm:text-3xl font-bold text-white tracking-tight">
+                  <h3 className="text-xl sm:text-3xl font-bold text-[#032115] tracking-tight">
                     {div.title}
                   </h3>
-                  <p className="mt-4 text-sm sm:text-base text-[#CBD5E1] leading-relaxed max-w-2xl border-l-2 border-[#D4AF37] pl-4">
+                  <p className="mt-4 text-sm sm:text-base text-[#334155] leading-relaxed max-w-2xl border-l-2 border-[#D4AF37] pl-4">
                     {div.confidenceParagraph}
                   </p>
                 </div>
@@ -142,7 +142,7 @@ export default function CorporateDivisions() {
                     href={div.ctaLink}
                     target={div.ctaLink.startsWith("http") ? "_blank" : undefined}
                     rel={div.ctaLink.startsWith("http") ? "noopener noreferrer" : undefined}
-                    className="inline-flex items-center justify-center bg-[#D4AF37] hover:bg-[#F1B814] text-[#032115] font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-none transition-colors whitespace-nowrap"
+                    className="inline-flex items-center justify-center bg-[#032115] hover:bg-[#073824] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-none transition-colors whitespace-nowrap"
                   >
                     {div.ctaText}
                   </a>
@@ -153,14 +153,14 @@ export default function CorporateDivisions() {
               <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
                 {div.competencies.map((comp, cIdx) => (
                   <div key={cIdx} className="flex items-start gap-4 py-2">
-                    <span className="text-xs font-mono font-bold text-[#D4AF37] tracking-wider pt-0.5 shrink-0">
+                    <span className="text-xs font-mono font-bold text-[#996515] tracking-wider pt-0.5 shrink-0">
                       [{comp.index}]
                     </span>
                     <div>
-                      <h4 className="text-sm font-semibold text-white tracking-tight">
+                      <h4 className="text-sm font-semibold text-[#032115] tracking-tight">
                         {comp.title}
                       </h4>
-                      <p className="mt-1 text-xs text-[#CBD5E1] leading-relaxed">
+                      <p className="mt-1 text-xs text-[#475569] leading-relaxed">
                         {comp.desc}
                       </p>
                     </div>
