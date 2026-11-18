@@ -32,7 +32,7 @@ export default function CorporateDivisions() {
         },
       ],
       ctaText: "Falar com Contabilista",
-      ctaLink: "https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20falar%20com%20um%20contabilista%20sobre%20a%20minha%20empresa.",
+      ctaLink: "https://wa.me/258851408538?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20falar%20com%20um%20contabilista%20sobre%20a%20minha%20empresa.",
     },
     {
       id: "legal",
@@ -64,7 +64,7 @@ export default function CorporateDivisions() {
         },
       ],
       ctaText: "Iniciar Registo de Empresa",
-      ctaLink: "https://wa.me/258846992501?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20iniciar%20o%20registo%20e%20abertura%20de%20empresa.",
+      ctaLink: "https://wa.me/258851408538?text=Ol%C3%A1%20Elite%20Assessoria%2C%20pretendo%20iniciar%20o%20registo%20e%20abertura%20de%20empresa.",
     },
     {
       id: "domiciliacao-servicos",
@@ -101,39 +101,39 @@ export default function CorporateDivisions() {
   ];
 
   return (
-    <section className="bg-[#080E1A] py-24 px-4 sm:px-6 lg:px-8 hairline-b">
+    <section id="servicos" className="bg-[#032115] py-24 px-4 sm:px-6 lg:px-8 border-b border-[#D4AF37]/20">
       <div className="max-w-7xl mx-auto">
         {/* Editorial Section Header */}
         <div className="max-w-3xl mb-16">
-          <div className="text-xs font-semibold text-[#C59B27] uppercase tracking-[0.2em] font-mono mb-3">
+          <div className="text-xs font-semibold text-[#D4AF37] uppercase tracking-[0.2em] font-mono mb-3">
             Estrutura Corporativa
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-            As Três Divisões Especializadas da Elite Assessoria, S.A.
+            Serviços Corporativos e Apoio Integrado à Empresa
           </h2>
-          <p className="mt-4 text-[#94A3B8] text-sm sm:text-base leading-relaxed">
-            Operamos como uma parceira multidisciplinar sob a mesma governação corporativa, eliminando a fragmentação de contratar múltiplos prestadores avulsos.
+          <p className="mt-4 text-[#CBD5E1] text-sm sm:text-base leading-relaxed">
+            Fiscal, empresarial, licenciamento, regularização e auditoria sob a mesma governação corporativa em Maputo.
           </p>
         </div>
 
         {/* Divisions Editorial Layout */}
-        <div className="space-y-20">
+        <div className="space-y-16">
           {divisions.map((div) => (
             <div
               key={div.id}
               id={div.id}
-              className="hairline-t pt-10 scroll-mt-24"
+              className="bg-[#073824] border border-[#D4AF37]/20 p-8 sm:p-10 scroll-mt-24"
             >
               {/* Division Header Row */}
-              <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6">
+              <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b border-[#D4AF37]/15">
                 <div className="max-w-3xl">
-                  <span className="text-xs font-semibold text-[#C59B27] uppercase tracking-[0.18em] font-mono block mb-2">
+                  <span className="text-xs font-semibold text-[#D4AF37] uppercase tracking-[0.18em] font-mono block mb-2">
                     {div.code}: {div.division}
                   </span>
                   <h3 className="text-xl sm:text-3xl font-bold text-white tracking-tight">
                     {div.title}
                   </h3>
-                  <p className="mt-4 text-sm sm:text-base text-[#CBD5E1] leading-relaxed max-w-2xl border-l-2 border-[#C59B27] pl-4">
+                  <p className="mt-4 text-sm sm:text-base text-[#CBD5E1] leading-relaxed max-w-2xl border-l-2 border-[#D4AF37] pl-4">
                     {div.confidenceParagraph}
                   </p>
                 </div>
@@ -142,7 +142,7 @@ export default function CorporateDivisions() {
                     href={div.ctaLink}
                     target={div.ctaLink.startsWith("http") ? "_blank" : undefined}
                     rel={div.ctaLink.startsWith("http") ? "noopener noreferrer" : undefined}
-                    className="inline-flex items-center justify-center bg-[#C59B27] hover:bg-[#D4AF37] text-[#080E1A] font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-none transition-colors whitespace-nowrap"
+                    className="inline-flex items-center justify-center bg-[#D4AF37] hover:bg-[#F1B814] text-[#032115] font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-none transition-colors whitespace-nowrap"
                   >
                     {div.ctaText}
                   </a>
@@ -153,14 +153,14 @@ export default function CorporateDivisions() {
               <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
                 {div.competencies.map((comp, cIdx) => (
                   <div key={cIdx} className="flex items-start gap-4 py-2">
-                    <span className="text-xs font-mono font-bold text-[#C59B27] tracking-wider pt-0.5 shrink-0">
+                    <span className="text-xs font-mono font-bold text-[#D4AF37] tracking-wider pt-0.5 shrink-0">
                       [{comp.index}]
                     </span>
                     <div>
                       <h4 className="text-sm font-semibold text-white tracking-tight">
                         {comp.title}
                       </h4>
-                      <p className="mt-1 text-xs text-[#94A3B8] leading-relaxed">
+                      <p className="mt-1 text-xs text-[#CBD5E1] leading-relaxed">
                         {comp.desc}
                       </p>
                     </div>

@@ -3,32 +3,34 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#080E1A] hairline-t pt-16 pb-12 px-4 sm:px-6 lg:px-8 text-xs text-[#94A3B8]">
+    <footer className="bg-[#021C11] border-t border-[#D4AF37]/20 pt-16 pb-12 px-4 sm:px-6 lg:px-8 text-xs text-[#CBD5E1]">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 hairline-b">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-[#D4AF37]/15">
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-block">
               <Image
                 src="/elite-logo.svg"
                 alt="Elite Assessoria Contábil e Empresarial, S.A."
-                width={240}
-                height={46}
+                width={260}
+                height={50}
                 className="h-10 w-auto"
               />
             </Link>
-            <p className="text-xs text-[#94A3B8] leading-relaxed max-w-sm">
-              Elite Assessoria Contábil e Empresarial, S.A. — Sociedade Anónima moçambicana de serviços integrados de contabilidade PGC-NIRF, auditoria, consultoria societária, domiciliação fiscal e intermediação financeira.
+            <p className="text-xs text-[#CBD5E1] leading-relaxed max-w-sm">
+              Elite Assessoria Contábil e Empresarial, S.A. — Prestação de serviços contábeis com transparência e responsabilidade, formação executiva, domiciliação fiscal e apoio corporativo em Maputo.
             </p>
-            <div className="pt-2 text-[11px] text-[#64748B] font-mono">
-              NUIT Corporativo: 401XXXXXX · Maputo, Moçambique
+            <div className="pt-2 text-xs text-[#CBD5E1] space-y-1 font-mono">
+              <div>Sede: Av. Maguiguana, Bairro Central A, NR 688, Maputo</div>
+              <div>Tel / WhatsApp: +258 85 140 8538</div>
+              <div>E-mail: eliteassessoriacontabile@gmail.com</div>
             </div>
           </div>
 
-          {/* Quick Links 1: Divisões */}
+          {/* Quick Links 1: Serviços */}
           <div>
             <span className="text-xs font-mono font-bold text-white uppercase tracking-wider block mb-4">
-              Divisões
+              Serviços
             </span>
             <ul className="space-y-2.5">
               <li>
@@ -43,41 +45,41 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#legal" className="hover:text-[#D4AF37] transition-colors">
-                  Constituição no Balcão Único
+                  Constituição de Empresas (BAU)
                 </Link>
               </li>
               <li>
                 <Link href="/#legal" className="hover:text-[#D4AF37] transition-colors">
-                  Assessoria Jurídica Comercial
+                  Licenciamento &amp; Regularização
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Quick Links 2: Domiciliação */}
+          {/* Quick Links 2: Cursos & Domiciliação */}
           <div>
             <span className="text-xs font-mono font-bold text-white uppercase tracking-wider block mb-4">
-              Escritório Virtual
+              Cursos &amp; Sede
             </span>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/#domiciliacao" className="hover:text-[#D4AF37] transition-colors">
-                  Domicílio Fiscal em Maputo
+                <Link href="/#formacao" className="text-[#D4AF37] hover:underline transition-colors font-medium">
+                  Cursos de Formação Prática
+                </Link>
+              </li>
+              <li>
+                <Link href="/#formacao" className="hover:text-[#D4AF37] transition-colors">
+                  Fiscalidade Moçambicana
                 </Link>
               </li>
               <li>
                 <Link href="/#domiciliacao" className="hover:text-[#D4AF37] transition-colors">
-                  Atendimento Telefónico Dedicado
+                  Domiciliação Fiscal Maputo
                 </Link>
               </li>
               <li>
                 <Link href="/#domiciliacao" className="hover:text-[#D4AF37] transition-colors">
-                  Gestão e Triagem Documental
-                </Link>
-              </li>
-              <li>
-                <Link href="/#domiciliacao" className="hover:text-[#D4AF37] transition-colors">
-                  Salas de Reunião na Capital
+                  Escritório Virtual &amp; Linha Fixa
                 </Link>
               </li>
             </ul>
@@ -91,17 +93,17 @@ export default function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <Link href="/#credito" className="text-[#D4AF37] hover:underline transition-colors font-medium">
-                  Simulador de Crédito Bancário
+                  Simulador de Crédito ao Consumo
                 </Link>
               </li>
               <li>
                 <Link href="/#credito" className="hover:text-[#D4AF37] transition-colors">
-                  Requisitos &amp; Documentos
+                  Requisitos &amp; Documentação
                 </Link>
               </li>
               <li>
-                <Link href="/#credito" className="hover:text-[#D4AF37] transition-colors">
-                  Margem Consignada DNCP
+                <Link href="/#pacto" className="hover:text-[#D4AF37] transition-colors">
+                  Missão, Visão e Valores
                 </Link>
               </li>
               <li>
@@ -114,14 +116,14 @@ export default function Footer() {
         </div>
 
         {/* Bottom Legal Copyright */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#64748B]">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#CBD5E1]/70">
           <div>
             © {new Date().getFullYear()} Elite Assessoria Contábil e Empresarial, S.A. Todos os direitos reservados.
           </div>
           <div className="flex items-center gap-6 font-mono text-[11px]">
-            <span>Moçambique · Maputo</span>
+            <span>Maputo, Moçambique</span>
             <span>·</span>
-            <span>Rigor · Transparência · Confidencialidade</span>
+            <span>Integridade · Inovação · Trabalho em Equipe</span>
           </div>
         </div>
       </div>

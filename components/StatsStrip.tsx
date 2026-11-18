@@ -6,9 +6,9 @@ export default function StatsStrip() {
       sub: "Conformidade estrita com o PGC-NIRF e a legislação tributária moçambicana.",
     },
     {
-      metric: "3 Divisões",
+      metric: "5 Áreas",
       label: "Estrutura Integrada",
-      sub: "Finanças, Apoio Legal e Domiciliação Fiscal sob a mesma governação corporativa.",
+      sub: "Contabilidade, Crédito, Cursos, Apoio Legal e Domiciliação na Capital.",
     },
     {
       metric: "0 Multas",
@@ -16,20 +16,20 @@ export default function StatsStrip() {
       sub: "Planeamento preventivo e fecho rigoroso para blindar a sua empresa contra penalizações.",
     },
     {
-      metric: "24 Horas",
-      label: "Prontidão Operacional",
-      sub: "Triagem ágil de processos, constituição de empresas e propostas comerciais.",
+      metric: "Av. Maguiguana",
+      label: "Sede Executiva",
+      sub: "Bairro Central A, Cidade de Maputo, Casa/Prédio NR 688.",
     },
   ];
 
   return (
-    <section className="bg-[#0D1627] py-14 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#073824] border-y border-[#D4AF37]/20 py-14 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((s, idx) => (
             <div
               key={idx}
-              className="border-l-2 border-[#C59B27] pl-5 flex flex-col justify-between"
+              className="border-l-2 border-[#D4AF37] pl-5 flex flex-col justify-between"
             >
               <div>
                 <span className="text-3xl sm:text-4xl font-extrabold text-[#D4AF37] tabular-numbers tracking-tight block">
@@ -39,7 +39,7 @@ export default function StatsStrip() {
                   {s.label}
                 </span>
               </div>
-              <p className="mt-2 text-xs text-[#94A3B8] leading-relaxed">
+              <p className="mt-2 text-xs text-[#CBD5E1] leading-relaxed">
                 {s.sub}
               </p>
             </div>

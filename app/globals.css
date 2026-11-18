@@ -1,18 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-slate-deep: #080E1A;
-  --color-slate-surface: #0D1627;
-  --color-slate-elevated: #121E33;
-  --color-slate-border: #1E293B;
-  --color-hairline: rgba(255, 255, 255, 0.07);
+  /* Cores Oficiais da Identidade Elite: Imperial Emerald & Rich Gold */
+  --color-emerald-deep: #032115;
+  --color-emerald-surface: #073824;
+  --color-emerald-elevated: #0C4830;
+  --color-emerald-border: #125A3D;
+  --color-emerald-card: #052A1B;
+
   --color-gold-base: #C59B27;
-  --color-gold-warm: #D4AF37;
+  --color-gold-rich: #D4AF37;
+  --color-gold-bright: #F1B814;
+  --color-gold-pale: #F6E39F;
   --color-gold-muted: #8E7024;
-  --color-corporate-navy: #0F4C81;
-  --color-alabaster: #F8FAFC;
-  --color-text-slate: #94A3B8;
-  --color-text-muted: #64748B;
+
+  --color-alabaster: #F8FAF9;
+  --color-white: #FFFFFF;
+  --color-text-slate: #CBD5E1;
+  --color-text-muted: #8FA89B;
+  --color-hairline: rgba(212, 175, 55, 0.18);
 
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -21,34 +27,34 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 72px;
+  scroll-padding-top: 76px;
   -webkit-text-size-adjust: 100%;
-  background-color: #080E1A;
-  color: #F8FAFC;
+  background-color: #032115;
+  color: #F8FAF9;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: var(--font-sans);
-  background-color: #080E1A;
-  color: #F8FAFC;
+  background-color: #032115;
+  color: #F8FAF9;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: #C59B27;
-  color: #080E1A;
+  background: #D4AF37;
+  color: #032115;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #080E1A;
+  background: #032115;
 }
 ::-webkit-scrollbar-thumb {
   background: #C59B27;
@@ -67,18 +73,18 @@ button, input, select, textarea {
   font-variant-numeric: tabular-nums;
 }
 
-/* Editorial Hairline Borders */
+/* Editorial Hairline Borders in Subtle Gold */
 .hairline-b {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.18);
 }
 .hairline-t {
-  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-top: 1px solid rgba(212, 175, 55, 0.18);
 }
 .hairline-r {
-  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  border-right: 1px solid rgba(212, 175, 55, 0.18);
 }
 .hairline-l {
-  border-left: 1px solid rgba(255, 255, 255, 0.07);
+  border-left: 1px solid rgba(212, 175, 55, 0.18);
 }
 
 /* Motion Safe Guarantee */

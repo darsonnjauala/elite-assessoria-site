@@ -12,16 +12,19 @@ export const metadata: Metadata = {
 
 export default function CreditoPublicoPage() {
   return (
-    <main className="min-h-screen bg-[#080E1A] text-[#F8FAFC] pt-18">
+    <main className="min-h-screen bg-[#032115] text-[#F8FAF9] pt-18">
       <Header />
-      <div className="py-10 bg-[#0D1627] hairline-b">
+      <div className="py-12 bg-[#073824] border-b border-[#D4AF37]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-xs font-mono font-semibold text-[#C59B27] uppercase tracking-[0.2em] mb-2">
+          <div className="text-xs font-mono font-semibold text-[#D4AF37] uppercase tracking-[0.2em] mb-2">
             Portal Oficial de Intermediação Financeira
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Crédito ao Funcionário Público Moçambicano
+            Crédito ao Consumo para Funcionários Públicos
           </h1>
+          <p className="mt-3 text-xs sm:text-sm text-[#CBD5E1] max-w-2xl">
+            Acompanhamento transparente do processo consignado em folha, sem cobrança de taxas antecipadas.
+          </p>
         </div>
       </div>
       <CreditSimulator />
