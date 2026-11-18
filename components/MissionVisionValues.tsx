@@ -15,7 +15,7 @@ export default function MissionVisionValues() {
   ];
 
   return (
-    <section className="bg-[#042618] py-20 px-4 sm:px-6 lg:px-8 border-t border-[#D4AF37]/20">
+    <section id="pacto" className="bg-[#042618] py-20 px-4 sm:px-6 lg:px-8 border-t border-[#D4AF37]/20 scroll-mt-20">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="max-w-3xl mb-14">
